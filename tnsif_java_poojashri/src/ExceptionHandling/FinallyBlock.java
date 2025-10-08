@@ -14,7 +14,7 @@ public class FinallyBlock {
 		} catch (InputMismatchException e) {
 			System.err.println("Invalid input...");
 		} finally {
-			System.out.println("In Finally....");
+			System.out.println("Output is printed");
 			scanner.close();
 		}
 	}
